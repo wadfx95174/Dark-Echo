@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<!--
+Designed By 詠善、維哲 in 2017.06.15
+-->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Dark Echo</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/GameCSS.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" language="JavaScript"></script>
+    <script src="js/liquidFillGauge.js" language="JavaScript"></script>
+    <script src="js/GemeScript.js"></script>
+</head>
+<body>
+    <div>
+        <svg id="s" xmlns="http://www.w3.org/2000/svg" />
+    </div>
+    <div id="page">
+        <div class="counter"></div>
+        <div id="mz"></div>
+    </div>
+
+    <svg id="fillgauge1" width="50px" height="50px"></svg>
+    <div id="finalResult">
+        <div id="resultText">
+            <p>你已墮入黑暗之中．．．</p>
+            <p id="lifeTime"><p>
+                <img src="source/back.jpg" alt="" id="backButton" />
+                <img src="source/restart.jpg" alt="" id="restartButton" />
+        </div>
+    </div>
+
+    <embed src="source/gameMusic.mp3" autostart=true hidden="true" loop=true />
+</body>
+</html>

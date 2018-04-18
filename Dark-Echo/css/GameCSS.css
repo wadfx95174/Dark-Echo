@@ -1,0 +1,117 @@
+﻿html {
+    padding:0;
+    margin:0;
+    height:100%;
+    width:100%;
+}
+
+body{
+    height: 100%;
+    width:100%;
+    padding:0;
+    margin:0;
+    background-color:black;
+    z-index:0;
+	overflow-y:hidden;
+    overflow-x:hidden;
+}
+
+#s{
+    position:relative;
+    height:10000px;
+    width:10000px;
+    padding:0;
+    margin:0;
+	position:absolute;
+    z-index:1;
+}
+
+#mz {
+    float: none;
+}
+
+div.wall{
+    background-color:black;
+    width:60px;
+    height:60px;
+    position:absolute;
+}
+
+#player{
+    background-color:white;
+    width:10px;
+    height:10px;
+    position:absolute;
+    border-radius:100px;
+    z-index:2;
+    opacity:0.5;
+}
+
+div.counter{
+    position:absolute;
+    font-family:'Times New Roman', Times, serif;
+    color:red;
+    text-align:justify;
+    font-size:18px;
+    top:0%;
+    left:90%;
+    background-color:white;
+
+}
+
+#emeny{
+    width:60px;
+    height:60px;
+    position:absolute;
+    opacity:0;
+}
+
+#fillgauge1{
+    font-family: Helvetica;
+    font-weight: bold;
+    position:fixed;          
+    top:3%;
+    left:94%;
+    z-index:3;
+    float:none;
+}
+
+#finalResult{
+    background-color:black;
+    width:100%;
+    height:100%;
+    position:fixed;
+    display:none;
+    z-index:5;
+}
+
+#resultText{
+    color:white;
+    width:100%;
+    height:100%;
+    position:absolute;
+    text-align:center;
+    font-size:96px;
+    font-family:'Algerian',微軟正黑體,'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+#backButton{
+    top:35%;
+    left:10%;
+    position:absolute;
+    width:200px;
+    height:auto;
+    z-index:10;
+    cursor: pointer;
+}
+
+#restartButton{
+    cursor: pointer;
+    top:35%;
+    left:75%;
+    position:absolute;
+    width:200px;  
+    height:auto;
+     z-index:10;
+}
